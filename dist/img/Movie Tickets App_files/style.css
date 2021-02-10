@@ -1,0 +1,325 @@
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.sm-show {
+  display: none;
+}
+
+.x-large {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.medium {
+  font-size: 2rem;
+  margin-bottom: 0.9rem;
+}
+
+.text-primary {
+  color: #da1709;
+}
+
+.btn {
+  display: inline-block;
+  background: #f4f4f4;
+  color: #333;
+  padding: 0.4rem 1.3rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  outline: none;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.btn.btn-primary {
+  background-color: #da1709;
+  color: #fff;
+}
+
+.btn.btn-primary:hover {
+  background-color: #f21a0a;
+}
+
+.btn.btn-dark {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.btn.btn-dark:hover {
+  background-color: #3f474e;
+}
+
+.btn.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn.btn-success:hover {
+  background-color: #2dbc4e;
+}
+
+.btn.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn.btn-danger:hover {
+  background-color: #e04b59;
+}
+
+.btn:hover {
+  background: #626d78;
+}
+
+@media (min-width: 801px) {
+  .booking-item {
+    -ms-grid-columns: 1fr 4fr 1fr;
+        grid-template-columns: 1fr 4fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .sm-hide {
+    display: none;
+  }
+  .sm-show {
+    display: block;
+  }
+  .navbar-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1rem 0.5rem;
+  }
+  .navbar-container .nav-brand {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  .navbar-container li a {
+    font-size: 0.9rem;
+  }
+  .booking-item {
+    -ms-grid-columns: 2fr 4fr;
+        grid-template-columns: 2fr 4fr;
+  }
+}
+
+.form-group {
+  margin: 1rem 0;
+}
+
+.form input {
+  display: block;
+  max-width: 500px;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form input:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 1px 1px #da1709;
+          box-shadow: 0 0 1px 1px #da1709;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Mulish', 'sans-serif';
+}
+
+.navbar {
+  background-color: #da1709;
+  color: #fff;
+}
+
+.navbar .navbar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbar-container li {
+  list-style: none;
+}
+
+.navbar .navbar-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .navbar-container li {
+  padding: 0 1rem;
+  font-size: 1.1rem;
+}
+
+.navbar .navbar-container button {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  font-size: 1.5rem;
+}
+
+.navbar .navbar-container button:focus {
+  outline: none;
+}
+
+.navbar .navbar-container button:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.booking-item {
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+  display: -ms-grid;
+  display: grid;
+}
+
+.booking-item .movie-banner {
+  overflow: hidden;
+}
+
+.booking-item .movie-banner img {
+  width: 100%;
+}
+
+.booking-item .movie-detail {
+  padding: 0 1rem;
+}
+
+.booking-item .movie-detail h3 {
+  margin-bottom: 1rem;
+}
+
+.booking-item .movie-detail p {
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.booking-item .cancel-booking {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

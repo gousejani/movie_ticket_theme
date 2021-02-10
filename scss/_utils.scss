@@ -1,0 +1,109 @@
+.container{
+  max-width: $max-width;
+  margin: auto;
+  padding: 0 2rem;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+.sm-show{
+  display: none;
+}
+
+// Text styles
+.x-large {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.medium {
+  font-size: 2rem;
+  margin-bottom: 0.9rem;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+
+// Buttons
+.btn {
+  display: inline-block;
+  background: $light-color;
+  color: #333;
+  padding: 0.4rem 1.3rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  outline: none;
+  transition: all 0.2s ease-in;
+  &.btn-primary {
+    @include set-background($primary-color);
+    &:hover {
+      background-color: lighten($primary-color, 5%);
+    }
+  }
+  &.btn-dark {
+    @include set-background($dark-color);
+    &:hover {
+      background-color: lighten($dark-color, 5%);
+    }
+  }
+  &.btn-success {
+    @include set-background($success-color);
+    &:hover {
+      background-color: lighten($success-color, 5%);
+    }
+  }
+  &.btn-danger {
+    @include set-background($danger-color);
+    &:hover {
+      background-color: lighten($danger-color, 5%);
+    }
+  }
+  &.btn-available{
+    background-color:transparent;
+    border: 1px solid #ccc;
+    color:green;
+    &:hover{
+      background-color:transparent;
+    }
+  }
+  &.btn-soldout{
+    background-color:transparent;
+    border: 1px solid #ccc;
+    color:red;
+    &:hover{
+      background-color:transparent;
+    }
+  }
+  &:hover {
+    background: lighten($dark-color, 20%);
+  }
+}
+
+// Alerts
+.alert {
+  padding: 0.8rem;
+  margin: 1rem;
+  opacity: 0.9;
+  background: $light-color;
+  color: #333;
+  &.alert-primary {
+    @include set-background($primary-color);
+  }
+  &.alert-dark {
+    @include set-background($dark-color);
+  }
+  &.alert-danger {
+    @include set-background($danger-color);
+  }
+  &.alert-success {
+    @include set-background($success-color);
+  }
+}

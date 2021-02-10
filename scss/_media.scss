@@ -1,0 +1,61 @@
+@media (min-width:801px){
+  .booking-item{
+    grid-template-columns: 1fr 4fr 1fr;
+    
+  }
+  
+}
+@media (max-width:800px){
+  .sm-hide{
+    display: none;
+  }
+  .sm-show{
+    display: block;
+  }
+  .navbar-container{
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+    .nav-brand{
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+
+    }
+    li a{
+      font-size: 0.9rem;
+    }
+  }
+  .booking-item{
+    grid-template-columns: 2fr 4fr;
+  }
+
+  .movies-container{
+    .title-card{
+      width: 45%;
+      .card-image{
+        height: 200px;
+      }
+    }
+  }
+}
+
+@media (max-width:500px){
+  .movies-container{
+    .title-card{
+      width: 100%;
+      .card-image{
+        height: 300px;
+      }
+    }
+  }
+  .show-container{
+    .show-items{
+  .seat-selection{
+    .seat-grid{
+      font-size: 1rem;
+      i{
+        margin:0.5rem 0.1rem;
+      }
+    }
+  }
+}}
+}

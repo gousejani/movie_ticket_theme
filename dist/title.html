@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Movie Tickets App</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="navbar-container">
+      <h1 class="nav-brand">
+        <a href="#">
+          <i class="fas fa-ticket-alt"></i> Ticket Book Chesko
+        </a>
+      </h1>
+      <div class="nav-list">
+        <ul>
+          <li class="nav-items">
+            <a href="#">Movies</a>
+          </li>
+          <li class="nav-items">
+            <a href="register.html">Register</a>
+          </li>
+          <li class="nav-items">
+            <a href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="title-banner">
+      <div class="movie-banner">
+        <img src="img/aarya2.jpg" alt="">
+      </div>
+      <div class="movie-detail">
+        <h1>Simhadri</h1>
+        <p><strong>Genre:</strong> Love</p>
+        <p><strong>Language:</strong>Telugu</p>
+      </div>
+    </div>
+    <div class="show-container">
+      <div class="show-items">
+        <div class="theater">
+          Jyothi Digital
+        </div>
+        <div class="show-times">
+          <div class="btn btn-available">05:30</div>
+          <div class="btn btn-available">06:30</div>
+          <div class="btn btn-soldout">07:30</div>
+          <div class="btn btn-available">08:30</div>
+          <div class="btn btn-available">09:30</div>
+        </div>
+        <div class="seat-selection">
+          <h3 class="text-primary my-1">Please select your seats for 8:30 show</h3>
+          <div class="seat-grid">
+            <div class="row">
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+            </div>
+            <div class="row">
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair selected"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+            </div>
+            <div class="row">
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair selected"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+            </div>
+            <div class="row">
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair selected"></i>
+              <i class="fas fa-chair sold"></i>
+              <i class="fas fa-chair sold"></i>
+              <i class="fas fa-chair sold"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair sold"></i>
+            </div>
+            <div class="row">
+              <i class="fas fa-chair sold"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair"></i>
+              <i class="fas fa-chair sold"></i>
+            </div>
+          </div>
+          <div class="seat-info"> <i class="fas fa-chair sold"></i> : Not-available
+            <i class="fas fa-chair"></i> : Available
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="confirmation">
+    <div class="price">
+      <p>2 seats selected</p>
+      <p><strong>Total Price:</strong> Rs. 300</p>
+    </div>
+    <div class="btn btn-primary">
+      Confirm Booking 
+    </div>
+  </div>
+</body>
+</html>
